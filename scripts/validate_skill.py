@@ -29,7 +29,7 @@ for f in ROOT.rglob('*.md'):
 for f in (ROOT/'examples').glob('*.json'):
     try:json.loads(f.read_text(encoding='utf-8'))
     except Exception as e:errors.append(f'Invalid example JSON {f.name}: {e}')
-required=['README.md','references/host-compatibility.md','references/native-orchestration.md','references/host-orchestration.md','references/cli-cookbook.md','references/verification-and-recovery.md','scripts/install.py','adapters/AGENTS.snippet.md','adapters/CLAUDE.snippet.md','adapters/DSH.snippet.md']
+required=['README.md','README.zh-CN.md','LICENSE','references/host-compatibility.md','references/native-orchestration.md','references/host-orchestration.md','references/cli-cookbook.md','references/verification-and-recovery.md','scripts/install.py','adapters/AGENTS.snippet.md','adapters/CLAUDE.snippet.md','adapters/DSH.snippet.md']
 for path in required:
     if not (ROOT/path).is_file():errors.append('Missing '+path)
 if text.count('spawn_subagent')<1:errors.append('Missing native KHA orchestration guard')

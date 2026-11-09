@@ -2,12 +2,10 @@
 
 All notable changes to this community-maintained Agent Skill are documented here.
 
-## [Unreleased]
-
-- Added `README.en.md`, a full English edition of the documentation, and a language switcher in both READMEs.
-
 ## [2.0.0] - 2026-11-09
 
+- Added a full English edition as the default `README.md`; the Chinese edition now lives in `README.zh-CN.md`, with a language switcher in both.
+- Added the MIT license (`LICENSE`).
 - Made the skill host-neutral, designed around `Host Agent` rather than Codex-specific tool APIs.
 - Added installation support for Codex, Claude Code and DeepSeek Harness (DSH), including portable project-level installs.
 - Added LOCAL, KHA-NATIVE, and KHA-HOST routing with delegation, permission, and verification guards.
