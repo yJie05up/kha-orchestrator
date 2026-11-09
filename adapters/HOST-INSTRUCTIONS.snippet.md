@@ -1,0 +1,2 @@
+For complex tasks with independent, verifiable subtasks, consider the `kha-orchestrator` Agent Skill. Check benefit, cost, privacy, network access and available `kha` CLI before use; choose LOCAL, KHA-NATIVE or KHA-HOST. Keep final verification with the current host agent, never automatically disclose secrets, and never claim KHA ran unless real session/thread evidence exists. Do not delegate routine tasks merely to use a tool.
+

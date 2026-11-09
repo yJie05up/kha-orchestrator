@@ -1,0 +1,10 @@
+{
+  "agent_id": "REPLACE_WITH_REAL_COORDINATOR_AGENT_ID",
+  "environment_id": "REPLACE_WITH_READY_ENVIRONMENT_ID",
+  "title": "Host KHA read-only delegation",
+  "metadata": {
+    "workflow": "kha-orchestrator",
+    "host": "REPLACE_WITH_HOST_NAME"
+  }
+}
+
