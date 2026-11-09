@@ -6,6 +6,8 @@
 
 **One portable Agent Skill for deliberate KHA delegation across coding agents.**
 
+**简体中文** · [English](README.en.md)
+
 [快速开始](#-快速开始) · [架构与编排](#-架构与编排模式) · [多宿主安装](#-安装到-codex--claude-code--dsh) · [使用示例](#-使用示例) · [安全与成本](#-安全成本与适用边界) · [官方资料](#-官方文档与延伸阅读)
 
 </div>
@@ -244,7 +246,8 @@ python scripts/install.py --hosts all --scope user --force
 ```text
 kha-orchestrator/
 ├── SKILL.md                         # 所有宿主共享的核心技能入口
-├── README.md                        # 本文档
+├── README.md                        # 本文档（简体中文）
+├── README.en.md                     # 英文版文档
 ├── adapters/                        # 可选宿主常驻指令片段
 │   ├── AGENTS.snippet.md
 │   ├── CLAUDE.snippet.md

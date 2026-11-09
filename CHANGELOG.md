@@ -2,6 +2,10 @@
 
 All notable changes to this community-maintained Agent Skill are documented here.
 
+## [Unreleased]
+
+- Added `README.en.md`, a full English edition of the documentation, and a language switcher in both READMEs.
+
 ## [2.0.0] - 2026-11-09
 
 - Made the skill host-neutral, designed around `Host Agent` rather than Codex-specific tool APIs.
